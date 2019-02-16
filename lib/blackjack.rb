@@ -63,4 +63,4 @@ output = end_game(card)
 output
 end
     
-#binding.pry
+binding.pry
