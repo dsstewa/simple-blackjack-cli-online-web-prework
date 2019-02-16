@@ -36,14 +36,15 @@ def hit?(x)
   
   if input != "s" && input != "h"
     invalid_command
-    elsif input == "s"
+    elsif input == "h"
+  end
   
     
     
 end
 
 def invalid_command
-  # code invalid_command here
+  puts "Please enter a valid command"
 end
 
 #####################################################
