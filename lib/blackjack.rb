@@ -20,7 +20,7 @@ def get_user_input
 end
 
 def end_game(x)
-  "Sorry, you hit #{x}. Thanks for playing!"
+  puts "Sorry, you hit #{x}. Thanks for playing!"
 end
 
 def initial_round
@@ -59,7 +59,7 @@ until card >= 21
 display_card_total(card)
 card = hit?(card)
 end
-end_game(card)
+"Sorry, you hit #{card}. Thanks for playing!"
 end
     
 #binding.pry
