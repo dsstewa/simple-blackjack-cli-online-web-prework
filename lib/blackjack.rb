@@ -60,7 +60,6 @@ display_card_total(card)
 card = hit?(card)
 end
 output = end_game(card)
-puts display_card_total(card)
 output
 end
     
