@@ -38,10 +38,9 @@ def hit?(x)
     invalid_command
     prompt_user
     elsif input == "h"
-    display_card_total(cardtotal = cardtotal + deal_card)
+    cardtotal = cardtotal + deal_card
   end
   
-    
   cardtotal
 end
 
