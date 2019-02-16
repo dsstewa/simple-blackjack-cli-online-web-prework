@@ -54,6 +54,7 @@ end
 def runner
   welcome
 card = hit?(initial_round)
+
 hit?(card)
 
 
