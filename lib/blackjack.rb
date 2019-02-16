@@ -59,6 +59,7 @@ until card > 21
 display_card_total(card)
 card = hit?(card)
 end
+display_card_total(card)
 output = end_game(card)
 output
 end
