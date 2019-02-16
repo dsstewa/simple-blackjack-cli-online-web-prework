@@ -37,13 +37,7 @@ def hit?(x)
   if input != "s" && input != "h"
     invalid_command
     elsif input == "s"
-    
-    
-    
-    
-    
-    
-    
+  
     
     
 end
