@@ -53,9 +53,11 @@ end
 
 def runner
   welcome
-  
-until hit?(initial_round) > 21
-  hit?(initial_round)
+hit?(initial_round)
+until 
+if 
+
+
 end
     
 binding.pry
