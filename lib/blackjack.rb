@@ -59,7 +59,7 @@ until card >= 21
 display_card_total(card)
 card = hit?(card)
 end
-"Sorry, you hit #{card}. Thanks for playing!"
+end_game(card)
 end
     
 #binding.pry
