@@ -54,8 +54,7 @@ end
 def runner
   welcome
 hit?(initial_round)
-until 
-if 
+
 
 
 end
