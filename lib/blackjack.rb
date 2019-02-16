@@ -1,3 +1,4 @@
+require 'pry'
 def welcome
  puts "Welcome to the Blackjack Table"
 end
@@ -46,3 +47,4 @@ def runner
   # code runner here
 end
     
+binding.pry
