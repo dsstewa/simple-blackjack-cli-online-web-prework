@@ -40,7 +40,6 @@ def hit?(x)
     elsif input == "h"
     cardtotal = cardtotal + deal_card
   end
-  
   cardtotal
 end
 
@@ -55,7 +54,8 @@ end
 def runner
   welcome
   
-  hit?(initial_round)
+until hit?(initial_round) > 21
+  
   
 end
     
