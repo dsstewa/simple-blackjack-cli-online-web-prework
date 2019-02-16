@@ -34,7 +34,12 @@ def hit?(x)
   prompt_user
   input = get_user_input
   
-  if input == "s" || input == "h"
+  if input != "s" && input != "h"
+    invalid_command
+    elsif input == "s"
+    
+    
+    
     
     
     
