@@ -59,4 +59,4 @@ hit?(card)
 
 end
     
-#binding.pry
+binding.pry
