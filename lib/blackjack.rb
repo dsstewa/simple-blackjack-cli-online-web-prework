@@ -30,7 +30,7 @@ def initial_round
   card
 end
 
-def hit?()
+def hit?(x)
   prompt_user
   get_user_input
 end
