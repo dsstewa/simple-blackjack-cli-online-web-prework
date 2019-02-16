@@ -62,4 +62,4 @@ end
 end_game(card)
 end
     
-binding.pry
+#binding.pry
