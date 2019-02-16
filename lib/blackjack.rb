@@ -40,7 +40,7 @@ def hit?(x)
   end
   
     
-  
+  x
 end
 
 def invalid_command
