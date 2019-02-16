@@ -59,4 +59,4 @@ hit?(initial_round + card)
 
 end
     
-binding.pry
+#binding.pry
