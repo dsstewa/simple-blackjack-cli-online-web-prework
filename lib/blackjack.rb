@@ -59,7 +59,7 @@ until card >= 21
 display_card_total(card)
 card = hit?(card)
 end
-
+end_game(card)
 end
     
 binding.pry
