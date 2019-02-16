@@ -25,7 +25,7 @@ end
 def initial_round
   card = deal_card
   card = card + deal_card
-  card
+  puts "Your cards add up to #{card}"
 end
 
 def hit?
